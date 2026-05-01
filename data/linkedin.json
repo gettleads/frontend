@@ -1,0 +1,311 @@
+{
+  "keyword": {
+    "request": {
+      "endpoint": "/linkedin/keyword-search",
+      "query": { "search": "agentic ai", "page": 1 }
+    },
+    "response": {
+      "results": [
+        {
+          "id": "ln_kw_1",
+          "content": "Agentic AI is transforming enterprise workflows.",
+          "author": {
+            "name": "Jason Cutler",
+            "headline": "AI Leader"
+          },
+          "engagement": {
+            "likes": 246,
+            "comments": 44,
+            "shares": 3
+          }
+        },
+        {
+          "id": "ln_kw_2",
+          "content": "Future belongs to autonomous AI agents.",
+          "author": {
+            "name": "Anu Sambath"
+          },
+          "engagement": {
+            "likes": 120,
+            "comments": 10
+          }
+        }
+      ]
+    }
+  },
+    "profile": {
+  "response": {
+    "content": [
+      {
+        "id": "020852de-1fdb-e098-998d-4858b48e9d5d",
+        "identifier": "abhinav-ramakrishnan",
+
+        "profile": {
+          "first_name": "Abhinav",
+          "last_name": "Ganesan",
+          "full_name": "Abhinav AB Ganesan",
+          "headline": "AI-Driven Test Automation | Low-Code QA | Business Development @ Testsigma",
+          "title": "Business Development",
+          "picture": {
+            "source": "https://images.ai-ark.com/RFi1P9nvoRGcfTdbumXWanzQDtFkeS4ekvtYI-F1MEs/exp:1777679999/rs:fill:80:80/plain/s3://ark-person/images/020852de-1fdb-e098-998d-4858b48e9d5d.jpg"
+          },
+          "background": {
+            "source": "https://media.licdn.com/dms/image/v2/D5616AQE4PWiTZbz2qw/profile-displaybackgroundimage-shrink_350_1400/B56ZhflQmjHkAY-/0/1753950305530?e=1776297600&v=beta&t=xK0iJfRJk8ngQzhi1tlCvhUAlESAhQOce1ghivZe2iE"
+          },
+          "birth_date": null,
+          "summary": null
+        },
+
+        "link": {
+          "linkedin": "https://www.linkedin.com/in/abhinav-ramakrishnan",
+          "twitter": null,
+          "github": null,
+          "facebook": null
+        },
+
+        "location": {
+          "default": "Tamil Nadu, India, Asia",
+          "short": "Tamil Nadu",
+          "country": "India",
+          "state": null,
+          "city": "Tamil Nadu",
+          "position": null
+        },
+
+        "languages": {
+          "primary_locale": {
+            "country": "US",
+            "language": "en"
+          },
+          "supported_locales": [
+            {
+              "country": "US",
+              "language": "en"
+            }
+          ],
+          "profile_languages": null
+        },
+
+        "industry": "Computer Software",
+
+        "educations": [
+          {
+            "school": {
+              "id": "6e7e66bb-1188-fc52-9d68-1e24a3c17b39",
+              "name": "SRM IST Chennai",
+              "logo": "https://images.ai-ark.com/Eq6dGFLgeTtFk9I5CWwKHsmvE164377zkKdXiXBX4Os/exp:1777679999/rs:fill:80:80/plain/s3://ark-company/images/6e7e66bb-1188-fc52-9d68-1e24a3c17b39.jpg",
+              "url": "https://www.linkedin.com/school/srm-university-official"
+            },
+            "degree_name": "Bachelor of Technology - BTech",
+            "field_of_study": "Electronics and Communications Engineering",
+            "date": {
+              "start": null,
+              "end": "2017-12-31"
+            }
+          }
+        ],
+
+        "position_groups": [
+          {
+            "company": {
+              "id": "ab302a9f-5d68-f3ce-64b5-162f4abbafc8",
+              "name": "Testsigma",
+              "logo": "https://images.ai-ark.com/0uPamx5chWebUcdYzWYxWx07t1vAHA1QBcg9_xZBfNw/exp:1777679999/rs:fill:80:80/plain/s3://ark-company/images/ab302a9f-5d68-f3ce-64b5-162f4abbafc8.jpg",
+              "url": "https://www.linkedin.com/company/testsigma",
+              "employees": { "start": 51, "end": 200 }
+            },
+            "date": { "start": "2026-02-01", "end": null },
+            "profile_positions": [
+              {
+                "company": "Testsigma",
+                "title": "Business Development",
+                "employment_type": "Full-time",
+                "date": { "start": "2026-02-01", "end": null }
+              }
+            ]
+          },
+
+          {
+            "company": { "name": "Kreed Sports Tech" },
+            "date": { "start": "2023-05-01", "end": null },
+            "profile_positions": [
+              {
+                "company": "Kreed Sports Tech",
+                "title": "Entrepreneurship",
+                "employment_type": "Full-time",
+                "location": "India"
+              }
+            ]
+          },
+
+          {
+            "company": {
+              "id": "c1f76cd5-6c06-0565-e69d-b02f7ef73ea6",
+              "name": "Hippo Video"
+            },
+            "date": { "start": "2021-08-01", "end": "2025-04-30" },
+            "profile_positions": [
+              {
+                "company": "Hippo Video",
+                "title": "Sales Development Representative"
+              }
+            ]
+          },
+
+          {
+            "company": { "name": "Subex" },
+            "date": { "start": "2020-10-01", "end": "2021-07-31" },
+            "profile_positions": [
+              {
+                "company": "Subex",
+                "title": "Enterprise Sales Consultant"
+              }
+            ]
+          },
+
+          {
+            "company": { "name": "Magic Crate" },
+            "date": { "start": "2019-03-01", "end": "2020-07-31" },
+            "profile_positions": [
+              {
+                "company": "Magic Crate",
+                "title": "Revenue Specialist"
+              }
+            ]
+          },
+
+          {
+            "company": { "name": "Amnet ContentSource" },
+            "date": { "start": "2017-11-01", "end": "2019-03-31" },
+            "profile_positions": [
+              {
+                "company": "Amnet Systems",
+                "title": "Lead Development"
+              }
+            ]
+          },
+
+          {
+            "company": { "name": "Bigfix Gadget Care llp" },
+            "date": { "start": "2017-02-01", "end": "2017-07-31" },
+            "profile_positions": [
+              {
+                "company": "Bigfix Gadget Care llp",
+                "title": "Trainee - Strategy",
+                "employment_type": "Internship"
+              }
+            ]
+          }
+        ],
+
+        "skills": [
+          "Business Relationship Management",
+                "Business Development",
+                "Sales Strategy",
+                "Sales",
+                "Strategy",
+                "Business-to-Business (B2B)",
+                "Account Management",
+                "Sales Management",
+                "Marketing",
+                "Customer Relationship Management (CRM)",
+                "Market Research",
+                "Content Strategy",
+                "Software as a Service (SaaS)",
+                "Business Acumen",
+                "Communication",
+                "Public Speaking",
+                "Negotiation",
+                "Leadership"
+        ],
+
+        "member_badges": {
+          "premium": false,
+          "creator": false,
+          "open_to_work": false,
+          "hiring": false,
+          "verified": false,
+          "influencer": false
+        }
+      }
+    ]
+  }
+},
+
+  "post": {
+    "response": {
+      "id": "ln_post_1",
+      "content": "Excited to launch our new AI automation platform 🚀",
+      "author": {
+        "name": "Rahul Sharma"
+      },
+      "engagement": {
+        "likes": 540,
+        "comments": 67,
+        "shares": 20
+      }
+    }
+  },
+
+  "comments": {
+    "response": {
+      "total": 67,
+      "data": [
+        {
+          "user": "Priya",
+          "comment": "Great update!",
+          "likes": 12
+        },
+        {
+          "user": "Arjun",
+          "comment": "Very useful feature",
+          "likes": 8
+        }
+      ]
+    }
+  },
+
+  "company": {
+    "response": {
+      "name": "Testsigma",
+      "industry": "Software Testing",
+      "employees": 500,
+      "location": "India",
+      "followers": 12000
+    }
+  },
+
+  "peoplePosts": {
+    "response": {
+      "results": [
+        {
+          "author": "John Doe",
+          "content": "Startup scaling strategies in 2026",
+          "likes": 45
+        },
+        {
+          "author": "Meena Iyer",
+          "content": "AI hiring trends are booming",
+          "likes": 60
+        }
+      ]
+    }
+  },
+
+  "companyPosts": {
+    "response": {
+      "results": [
+        {
+          "company": "Google",
+          "content": "Launching new Gemini AI model",
+          "likes": 300
+        },
+        {
+          "company": "Microsoft",
+          "content": "Azure AI growth update",
+          "likes": 250
+        }
+      ]
+    }
+  }
+}
