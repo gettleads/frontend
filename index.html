@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en">
+  <!-- ================= HEAD ================= -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GettLeads</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ================= SVG ICONS ================= -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol id="chevron-icon" viewBox="0 0 24 24">
+        <polyline
+          points="6 9 12 15 18 9"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+    </svg>
+
+    <!-- ================= HEADER (LOADED VIA JS) ================= -->
+
+    <div id="header-placeholder"></div>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+      <div class="container hero-container">
+        <!-- ===== LEFT CONTENT ===== -->
+
+        <div class="hero-left">
+          <p class="badge">
+            <span class="dot"></span>
+            The most complete B2B contact database
+          </p>
+          <h1>
+            Find any
+            <span class="highlight">Verified Company & People Data</span> in
+            Real-Time
+          </h1>
+          <p class="hero-desc">
+            Tap into the world's largest B2B LinkedIn people database of 850M+
+            profiles and Enriched 50M+ companies. Build targeted prospect lists,
+            find validated "Business" & "Personal" email and phone numbers to
+            accelerate your
+            <strong>Outbound GTM</strong> and
+            <strong>Recruitment pipeline</strong>.
+          </p>
+
+          <!-- Features -->
+
+          <ul class="features">
+            <li>✔ Verified contact data</li>
+            <li>✔ Real-time data validation</li>
+            <li>✔ API integration available</li>
+            <li>✔ Bulk download available</li>
+          </ul>
+
+          <!-- CTA Buttons -->
+
+          <div class="hero-ctas">
+            <button class="btn btn-primary">Get Started Now →</button>
+            <button class="btn btn-outline">▷ Watch Demo</button>
+          </div>
+
+          <!-- Trust Line -->
+
+          <p class="trust-line">
+            ✔ Instant data &nbsp;•&nbsp; ✔ 850M+ contacts &nbsp;•&nbsp; ✔
+            Real-time validation
+          </p>
+        </div>
+
+        <!-- ===== RIGHT CONTENT (DEMO UI) ===== -->
+
+        <div class="hero-right">
+          <div class="floating-badge">✓ Email Validated</div>
+          <div class="card">
+            <!-- Filters -->
+
+            <div class="filters">
+              <span class="label">Active filters:</span>
+              <div class="chip">1000–5000 ✕</div>
+              <div class="chip">5001–10000 ✕</div>
+              <div class="chip">California ✕</div>
+              <span class="clear">Clear all</span>
+            </div>
+
+            <!-- Filter Row -->
+
+            <div class="filter-row">
+              <div class="dd">Industry ▾</div>
+              <div class="dd">Company ▾</div>
+              <div class="dd">Location ▾</div>
+              <div class="dd">Job ▾</div>
+              <div class="dd">Revenue ▾</div>
+              <div class="dd">More Filters ▾</div>
+            </div>
+
+            <!-- Stats -->
+
+            <div class="stats-row">
+              <div class="stat">
+                <span class="count">2,847,592</span> people found
+              </div>
+              <div class="stat">✓ Email validated</div>
+              <div class="stat">✓ Phone validated</div>
+              <div class="stat">✓ Real-time data</div>
+            </div>
+
+            <!-- Table Header -->
+
+            <div class="table-header">
+              <div class="th-contact">Contact</div>
+              <div>Company</div>
+              <div>Email</div>
+              <div>Phone</div>
+              <div>Location</div>
+            </div>
+            <div class="table">
+              <!---- Row ---->
+
+              <div class="row">
+                <div class="contact">
+                  <input type="checkbox" />
+                  <div class="avatar"></div>
+                  <div>
+                    <div class="name">
+                      Sarah Mitchell <span class="li-badge">in</span>
+                    </div>
+                    <div class="role">VP of Engineering</div>
+                  </div>
+                </div>
+                <div>Stripe</div>
+                <div class="view-link">✉ View</div>
+                <div class="view-link">📞 View</div>
+                <div class="location">San Francisco</div>
+              </div>
+              <div class="row">
+                <div class="contact">
+                  <input type="checkbox" />
+                  <div class="avatar"></div>
+                  <div>
+                    <div class="name">
+                      James Chen <span class="li-badge">in</span>
+                    </div>
+                    <div class="role">Senior Software Engineer</div>
+                  </div>
+                </div>
+                <div>Figma</div>
+                <div class="view-link">✉ View</div>
+                <div class="view-link">📞 View</div>
+                <div class="location">San Francisco</div>
+              </div>
+              <div class="row">
+                <div class="contact">
+                  <input type="checkbox" />
+                  <div class="avatar"></div>
+                  <div>
+                    <div class="name">
+                      Emily Rodriguez <span class="li-badge">in</span>
+                    </div>
+                    <div class="role">Chief Technology Officer</div>
+                  </div>
+                </div>
+                <div>Notion</div>
+                <div class="view-link">✉ View</div>
+                <div class="view-link">📞 View</div>
+                <div class="location">San Francisco</div>
+              </div>
+              <div class="row">
+                <div class="contact">
+                  <input type="checkbox" />
+                  <div class="avatar"></div>
+                  <div>
+                    <div class="name">
+                      Michael Thompson <span class="li-badge">in</span>
+                    </div>
+                    <div class="role">Engineering Manager</div>
+                  </div>
+                </div>
+                <div>Stripe</div>
+                <div class="view-link">✉ View</div>
+                <div class="view-link">📞 View</div>
+                <div class="location">San Francisco</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= IMPORT SECTION ================= -->
+
+    <section class="import-section" id="contact-enrichment">
+      <div class="container">
+        <!-- ===== IMPORT HEADER ===== -->
+
+        <div class="import-header">
+          <div>
+            <h2>Import & Enrich Your Data</h2>
+            <p>
+              Turn LinkedIn profiles into complete contact records with verified
+              emails, phone numbers, and social profiles
+            </p>
+          </div>
+
+          <button class="import-btn">
+            Explore Now
+
+            <span class="arrow">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M5 12h14M13 6l6 6-6 6"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+
+        <!-- ===== Cards ===== -->
+
+        <div class="import-cards">
+          <!-- ===== CARD 1 ===== -->
+
+          <article class="import-card">
+            <div class="card-inner">
+              <div class="card-icon icon-linkedin">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="white">
+                  <path
+                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"
+                  />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </div>
+              <h3>LinkedIn URLs</h3>
+              <p>
+                Paste any LinkedIn profile URL to instantly get enriched data,
+                including job history and company information, with the option
+                to access verified contact details.
+              </p>
+            </div>
+          </article>
+
+          <!-- ===== CARD 2 ===== -->
+
+          <article class="import-card">
+            <div class="card-inner">
+              <div class="card-icon icon-search">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+              </div>
+              <h3>LinkedIn Sales Navigator</h3>
+              <p>
+                Export enriched Sales Navigator searches with detailed profile
+                insights, including job title and company, and choose to access
+                emails and phone numbers for every result.
+              </p>
+            </div>
+          </article>
+
+          <!-- ===== CARD 3 ===== -->
+
+          <article class="import-card">
+            <div class="card-inner">
+              <div class="card-icon icon-mail">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <h3>Email Finder</h3>
+              <p>
+                Find verified business emails using just a name and company
+                domain. Real-time validation ensures accuracy.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Social SECTION ================= -->
+
+    <section class="social-section" id="social-scraping">
+      <div class="container">
+        <!-- ===== SECTION HEADER ===== -->
+
+        <div class="social-header">
+          <div>
+            <h2>Social Listening</h2>
+            <p>
+              Monitor conversations and track engagement across all major social
+              platforms with real-time monitoring across 7 platforms.
+            </p>
+          </div>
+
+          <!-- CTA BUTTON -->
+
+          <div class="social-header-right">
+            <button class="import-btn">
+              Explore Now
+
+              <!-- Arrow Icon -->
+
+              <span class="arrow">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M5 12h14M13 6l6 6-6 6"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <!-- ===== PLATFORM GRID (ACCORDION LAYOUT) ===== -->
+
+        <div class="dashboard">
+          <!-- ===== LEFT SIDEBAR ===== -->
+
+          <div class="sidebar">
+            <!-- ===== PLATFORM CARD (LinkedIn) ===== -->
+
+            <article class="sidebar-card">
+              <!-- Toggle Button (Accordion Trigger) -->
+
+              <button
+                class="platform-toggle"
+                aria-expanded="false"
+                aria-controls="linkedin-body"
+              >
+                <!-- Platform Icon -->
+
+                <div class="platform-icon li">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+                    <path
+                      d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"
+                    />
+                    <rect x="2" y="9" width="4" height="12" />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                </div>
+
+                <!-- Platform Info -->
+
+                <div class="platform-info">
+                  <h3>LinkedIn</h3>
+                  <span>7 Endpoints</span>
+                </div>
+
+                <!-- Dropdown Arrow -->
+
+                <div class="platform-chevron">
+                  <svg class="icon-chevron">
+                    <use href="#chevron-icon"></use>
+                  </svg>
+                </div>
+              </button>
+
+              <!-- Expandable Content -->
+
+              <div class="platform-body" id="linkedin-body">
+                <ul>
+                  <li data-platform="linkedin" data-type="keyword">
+                    <span>Keyword & Hashtag Search</span>
+                  </li>
+                  <li data-platform="linkedin" data-type="profile">
+                    <span>Profile Scraper</span>
+                  </li>
+                  <li data-platform="linkedin" data-type="post">
+                    <span>Post Details</span>
+                  </li>
+                  <li data-platform="linkedin" data-type="comments">
+                    <span>Comments & Replies</span>
+                  </li>
+                  <li data-platform="linkedin" data-type="company">
+                    <span>Company Data</span>
+                  </li>
+                  <li data-platform="linkedin" data-type="peoplePosts">
+                    <span>People Posts Scraper</span>
+                  </li>
+                  <li data-platform="linkedin" data-type="companyPosts">
+                    <span>Company Posts Scraper</span>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- ===== PLATFORM CARD (X) ===== -->
+
+            <article class="sidebar-card">
+              <button
+                class="platform-toggle"
+                aria-expanded="false"
+                aria-controls="X-body"
+              >
+                <div class="platform-icon X">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+                    <path
+                      d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                    />
+                  </svg>
+                </div>
+                <div class="platform-info">
+                  <h3>X</h3>
+                  <span>4 Endpoints</span>
+                </div>
+
+                <div class="platform-chevron">
+                  <svg class="icon-chevron">
+                    <use href="#chevron-icon"></use>
+                  </svg>
+                </div>
+              </button>
+              <div class="platform-body" id="X-body">
+                <ul>
+                  <li data-platform="X" data-type="keyword">
+                    <span>Keyword & Hashtag Search</span>
+                  </li>
+                  <li data-platform="X" data-type="profile">
+                    <span>Profile Scraper</span>
+                  </li>
+                  <li data-platform="X" data-type="post">
+                    <span>Post Details</span>
+                  </li>
+                  <li data-platform="X" data-type="comments">
+                    <span>Comments & Replies</span>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="sidebar-card">
+              <button
+                class="platform-toggle"
+                aria-expanded="false"
+                aria-controls="facebook-body"
+              >
+                <div class="platform-icon fb">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+                    <path
+                      d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                    />
+                  </svg>
+                </div>
+                <div class="platform-info">
+                  <h3>Facebook</h3>
+                  <span>4 Endpoints</span>
+                </div>
+                <div class="platform-chevron">
+                  <svg class="icon-chevron">
+                    <use href="#chevron-icon"></use>
+                  </svg>
+                </div>
+              </button>
+              <div class="platform-body" id="facebook-body">
+                <ul>
+                  <li data-platform="facebook" data-type="keyword">
+                    <span>Keyword & Hashtag Search</span>
+                  </li>
+                  <li data-platform="facebook" data-type="profile">
+                    <span>Profile Scraper</span>
+                  </li>
+                  <li data-platform="facebook" data-type="post">
+                    <span>Post Details</span>
+                  </li>
+                  <li data-platform="facebook" data-type="comments">
+                    <span>Comments & Replies</span>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- ===== PLATFORM CARD (INSTAGRAM) ===== -->
+
+            <article class="sidebar-card">
+              <button
+                class="platform-toggle"
+                aria-expanded="false"
+                aria-controls="instagram-body"
+              >
+                <div class="platform-icon ig">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                    <circle cx="12" cy="12" r="4" />
+                    <circle
+                      cx="17.5"
+                      cy="6.5"
+                      r="1"
+                      fill="white"
+                      stroke="none"
+                    />
+                  </svg>
+                </div>
+
+                <div class="platform-info">
+                  <h3>Instagram</h3>
+                  <span>3 Endpoints</span>
+                </div>
+
+                <div class="platform-chevron">
+                  <svg class="icon-chevron">
+                    <use href="#chevron-icon"></use>
+                  </svg>
+                </div>
+              </button>
+              <div class="platform-body" id="instagram-body">
+                <ul>
+                  <li data-platform="instagram" data-type="keyword">
+                    <span>Keyword & Hashtag Search</span>
+                  </li>
+                  <li data-platform="instagram" data-type="profile">
+                    <span>Profile Scraper</span>
+                  </li>
+                  <li data-platform="instagram" data-type="post">
+                    <span>Post Details</span>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- ===== PLATFORM CARD (Reddit) ===== -->
+
+            <article class="sidebar-card">
+              <button
+                class="platform-toggle"
+                aria-expanded="false"
+                aria-controls="reddit-body"
+              >
+                <div class="platform-icon rd">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+                    <circle cx="12" cy="12" r="10" />
+                    <path
+                      d="M20 12a2 2 0 00-2-2c-.5 0-1 .2-1.3.5-1.4-.9-3.2-1.5-5.2-1.6l.9-4 2.8.6a1.5 1.5 0 103-.1 1.5 1.5 0 00-2.9-.5l-3.2-.7-1 4.8c-2 .1-3.8.7-5.1 1.6A2 2 0 004 12a2 2 0 001 1.8v.4c0 2.8 3.1 5 7 5s7-2.2 7-5v-.4A2 2 0 0020 12zm-13.5 1a1.2 1.2 0 112.4 0 1.2 1.2 0 01-2.4 0zm6.8 3.3a3.8 3.8 0 01-2.5-.8.4.4 0 01.5-.6 3 3 0 002 .6 3 3 0 002-.6.4.4 0 01.5.6 3.8 3.8 0 01-2.5.8zm.2-2.1a1.2 1.2 0 110-2.4 1.2 1.2 0 010 2.4z"
+                      fill="#ff4500"
+                    />
+                  </svg>
+                </div>
+
+                <div class="platform-info">
+                  <h3>Reddit</h3>
+                  <span>4 Endpoints</span>
+                </div>
+
+                <div class="platform-chevron">
+                  <svg class="icon-chevron">
+                    <use href="#chevron-icon"></use>
+                  </svg>
+                </div>
+              </button>
+              <div class="platform-body" id="reddit-body">
+                <ul>
+                  <li data-platform="reddit" data-type="keyword">
+                    <span>Keyword & Hashtag Search</span>
+                  </li>
+                  <li data-platform="reddit" data-type="subreddit">
+                    <span>Subreddit Scraper</span>
+                  </li>
+                  <li data-platform="reddit" data-type="post">
+                    <span>Post Details</span>
+                  </li>
+                  <li data-platform="reddit" data-type="comments">
+                    <span>Comments & Replies</span>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- ===== PLATFORM CARD (TIK-TOK) ===== -->
+
+            <article class="sidebar-card">
+              <button
+                class="platform-toggle"
+                aria-expanded="false"
+                aria-controls="tiktok-body"
+              >
+                <div class="platform-icon tt">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+                    <path
+                      d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.75a4.85 4.85 0 01-1.01-.06z"
+                    />
+                  </svg>
+                </div>
+
+                <div class="platform-info">
+                  <h3>TikTok</h3>
+                  <span>3 Endpoints</span>
+                </div>
+
+                <div class="platform-chevron">
+                  <svg class="icon-chevron">
+                    <use href="#chevron-icon"></use>
+                  </svg>
+                </div>
+              </button>
+              <div class="platform-body" id="tiktok-body">
+                <ul>
+                  <li data-platform="tiktok" data-type="keyword">
+                    <span>Keyword & Hashtag Search</span>
+                  </li>
+                  <li data-platform="tiktok" data-type="profile">
+                    <span>Profile Scraper</span>
+                  </li>
+                  <li data-platform="tiktok" data-type="video">
+                    <span>Video Details</span>
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- ===== PLATFORM CARD (YOUTUBE) ===== -->
+
+            <article class="sidebar-card">
+              <button
+                class="platform-toggle"
+                aria-expanded="false"
+                aria-controls="youtube-body"
+              >
+                <div class="platform-icon yt">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+                    <path
+                      d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"
+                      fill="white"
+                    />
+                    <polygon
+                      points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"
+                      fill="#ff0000"
+                    />
+                  </svg>
+                </div>
+
+                <div class="platform-info">
+                  <h3>YouTube</h3>
+                  <span>5 Endpoints</span>
+                </div>
+
+                <div class="platform-chevron">
+                  <svg class="icon-chevron">
+                    <use href="#chevron-icon"></use>
+                  </svg>
+                </div>
+              </button>
+              <div class="platform-body" id="youtube-body">
+                <ul>
+                  <li data-platform="youtube" data-type="keyword">
+                    <span>Keyword Search</span>
+                  </li>
+                  <li data-platform="youtube" data-type="channel">
+                    <span>Channel Scraper</span>
+                  </li>
+                  <li data-platform="youtube" data-type="video">
+                    <span>Video Details</span>
+                  </li>
+                  <li data-platform="youtube" data-type="comments">
+                    <span>Comments & Replies</span>
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <!-- ===== RIGHT PANEL ===== -->
+
+          <div class="right-panel">
+            <div class="data-header">
+              <h3>Sample Data</h3>
+
+              <div class="format-toggle">
+                <button class="active">JSON</button>
+              </div>
+            </div>
+
+            <div class="data-box">
+              <div class="data-top">
+                <span>{ } JSON Format</span>
+                <button class="copy-btn">Copy</button>
+              </div>
+
+              <pre id="jsonViewer">Select an endpoint to view data</pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER (DYNAMIC LOAD JS) ================= -->
+
+    <div id="footer-placeholder"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
