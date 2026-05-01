@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login — GettLeads</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="auth-page">
+
+    <!-- Minimal header -->
+    <header class="auth-header">
+        <a href="home.html" class="auth-logo">GettLeads</a>
+        <a href="home.html" class="auth-back">
+            <i class="fas fa-arrow-left"></i> Back to home
+        </a>
+    </header>
+
+    <main class="auth-main">
+        <div class="auth-card">
+
+            <!-- Tab switcher: Login / Sign Up -->
+            <div class="auth-tabs">
+                <button class="auth-tab auth-tab-active" data-tab="login">Log In</button>
+                <button class="auth-tab" data-tab="signup">Sign Up</button>
+            </div>
+
+            <!-- ── LOGIN FORM ─────────────────────────────── -->
+            <div class="auth-panel" id="panel-login">
+                <div class="auth-greeting">
+                    <h1 class="auth-title">Welcome back</h1>
+                    <p class="auth-subtitle">Sign in to your GettLeads account</p>
+                </div>
+
+                <form id="login-form" class="auth-form" novalidate>
+                    <div class="form-group">
+                        <label class="form-label" for="login-email">Work Email</label>
+                        <div class="input-wrap">
+                            <i class="fas fa-envelope input-icon"></i>
+                            <input
+                                class="form-input"
+                                type="email"
+                                id="login-email"
+                                placeholder="you@company.com"
+                                autocomplete="email"
+                            >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="login-password">
+                            Password
+                            <a href="#" class="forgot-link">Forgot password?</a>
+                        </label>
+                        <div class="input-wrap">
+                            <i class="fas fa-lock input-icon"></i>
+                            <input
+                                class="form-input"
+                                type="password"
+                                id="login-password"
+                                placeholder="••••••••"
+                                autocomplete="current-password"
+                            >
+                            <button type="button" class="toggle-password" aria-label="Show password">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Sign In <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+
+                <p class="auth-switch">
+                    Don't have an account?
+                    <button class="switch-tab-btn" data-tab="signup">Sign up free</button>
+                </p>
+            </div>
+
+            <!-- ── SIGN UP FORM ───────────────────────────── -->
+            <div class="auth-panel hidden" id="panel-signup">
+                <div class="auth-greeting">
+                    <h1 class="auth-title">Create your account</h1>
+                    <p class="auth-subtitle">7-day free trial • No credit card required</p>
+                </div>
+
+                <form id="signup-form" class="auth-form" novalidate>
+                    <div class="form-group">
+                        <label class="form-label" for="signup-name">Full Name</label>
+                        <div class="input-wrap">
+                            <i class="fas fa-user input-icon"></i>
+                            <input
+                                class="form-input"
+                                type="text"
+                                id="signup-name"
+                                placeholder="Sarah Mitchell"
+                                autocomplete="name"
+                            >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="signup-email">Work Email</label>
+                        <div class="input-wrap">
+                            <i class="fas fa-envelope input-icon"></i>
+                            <input
+                                class="form-input"
+                                type="email"
+                                id="signup-email"
+                                placeholder="you@company.com"
+                                autocomplete="email"
+                            >
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="signup-password">Password</label>
+                        <div class="input-wrap">
+                            <i class="fas fa-lock input-icon"></i>
+                            <input
+                                class="form-input"
+                                type="password"
+                                id="signup-password"
+                                placeholder="Min. 8 characters"
+                                autocomplete="new-password"
+                            >
+                            <button type="button" class="toggle-password" aria-label="Show password">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        Create Account <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <p class="terms-note">
+                        By signing up you agree to our
+                        <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+                    </p>
+                </form>
+
+                <p class="auth-switch">
+                    Already have an account?
+                    <button class="switch-tab-btn" data-tab="login">Log in</button>
+                </p>
+            </div>
+
+        </div>
+
+        <!-- Side panel — social proof -->
+        <div class="auth-side">
+            <div class="auth-side-content">
+                <div class="auth-stat-group">
+                    <div class="auth-stat">
+                        <span class="auth-stat-number">850M+</span>
+                        <span class="auth-stat-label">Verified contacts</span>
+                    </div>
+                    <div class="auth-stat">
+                        <span class="auth-stat-number">97%</span>
+                        <span class="auth-stat-label">Email accuracy</span>
+                    </div>
+                    <div class="auth-stat">
+                        <span class="auth-stat-number">50M+</span>
+                        <span class="auth-stat-label">Companies</span>
+                    </div>
+                </div>
+                <blockquote class="auth-quote">
+                    "GettLeads cut our prospecting time in half. We went from 2 hours of manual research to 10 minutes."
+                </blockquote>
+                <div class="auth-quote-author">
+                    <div class="contact-avatar" style="background:#8b5cf6;width:44px;height:44px;font-size:16px;">SM</div>
+                    <div>
+                        <p class="quote-name">Sarah Mitchell</p>
+                        <p class="quote-title">VP of Engineering, Stripe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script>
+        // ── Tab switching ─────────────────────────────────────────────────────
+        const tabs = document.querySelectorAll('.auth-tab');
+        const panels = { login: document.getElementById('panel-login'), signup: document.getElementById('panel-signup') };
+
+        function activateTab(tabName) {
+            tabs.forEach(function (t) { t.classList.toggle('auth-tab-active', t.dataset.tab === tabName); });
+            Object.entries(panels).forEach(function ([name, panel]) {
+                panel.classList.toggle('hidden', name !== tabName);
+            });
+        }
+
+        tabs.forEach(function (tab) {
+            tab.addEventListener('click', function () { activateTab(this.dataset.tab); });
+        });
+
+        // Switch links inside forms
+        document.querySelectorAll('.switch-tab-btn').forEach(function (btn) {
+            btn.addEventListener('click', function () { activateTab(this.dataset.tab); });
+        });
+
+        // ── Show/hide password toggle ─────────────────────────────────────────
+        document.querySelectorAll('.toggle-password').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                const input = this.closest('.input-wrap').querySelector('input');
+                const icon = this.querySelector('i');
+                if (input.type === 'password') {
+                    input.type = 'text';
+                    icon.classList.replace('fa-eye', 'fa-eye-slash');
+                } else {
+                    input.type = 'password';
+                    icon.classList.replace('fa-eye-slash', 'fa-eye');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
