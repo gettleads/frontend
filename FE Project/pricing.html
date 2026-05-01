@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing — GettLeads</title>
+    <meta name="description" content="Simple, transparent pricing for every team size. Start free, scale as you grow. No hidden fees. Cancel anytime.">
+    <meta property="og:title" content="Pricing — GettLeads">
+    <meta property="og:description" content="Simple, transparent pricing for every team size. Start free, scale as you grow.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#8b5cf6">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header (same as home) -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1 class="logo"><a href="home.html" style="text-decoration:none;color:inherit;">GettLeads</a></h1>
+            </div>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#" class="nav-link">Datasets <i class="fas fa-chevron-down"></i></a>
+                <a href="#" class="nav-link">Data APIs <i class="fas fa-chevron-down"></i></a>
+                <a href="#" class="nav-link">Solutions <i class="fas fa-chevron-down"></i></a>
+                <a href="#" class="nav-link">Resources <i class="fas fa-chevron-down"></i></a>
+                <a href="pricing.html" class="nav-link nav-link-active">Pricing <i class="fas fa-chevron-down"></i></a>
+            </nav>
+            <div class="header-actions">
+                <a href="login.html" class="btn btn-outline">Login</a>
+                <a href="login.html?tab=demo" class="btn btn-outline">Schedule a Demo</a>
+                <a href="login.html?tab=signup" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Pricing Hero -->
+    <section class="pricing-hero">
+        <div class="container">
+            <div class="pricing-hero-content">
+                <div class="tagline">
+                    <span class="tag-dot"></span>
+                    <span>Simple, transparent pricing</span>
+                </div>
+                <h1 class="pricing-headline">Plans for every team size</h1>
+                <p class="pricing-subheadline">
+                    Start free, scale as you grow. No hidden fees. Cancel anytime.
+                </p>
+                <!-- Toggle: monthly / annual -->
+                <div class="billing-toggle">
+                    <span class="billing-label" id="label-monthly">Monthly</span>
+                    <button class="toggle-btn" id="billing-toggle" aria-label="Toggle billing period">
+                        <span class="toggle-knob"></span>
+                    </button>
+                    <span class="billing-label" id="label-annual">Annual <span class="savings-badge">Save 20%</span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Cards -->
+    <section class="pricing-cards-section">
+        <div class="container">
+            <div class="pricing-grid">
+
+                <!-- Free -->
+                <div class="pricing-card">
+                    <div class="plan-header">
+                        <div class="plan-icon plan-icon-free">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h2 class="plan-name">Free</h2>
+                        <p class="plan-desc">Perfect for trying GettLeads before committing.</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="price-amount">$0</span>
+                        <span class="price-period">/ month</span>
+                    </div>
+                    <a href="login.html?tab=signup" class="btn btn-outline plan-cta">Get Started Free</a>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> 50 credits / month</li>
+                        <li><i class="fas fa-check"></i> Email addresses only</li>
+                        <li><i class="fas fa-check"></i> 1 user seat</li>
+                        <li><i class="fas fa-check"></i> Chrome Extension</li>
+                        <li><i class="fas fa-check"></i> Basic search filters</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Phone numbers</li>
+                        <li class="disabled"><i class="fas fa-times"></i> CSV / bulk export</li>
+                        <li class="disabled"><i class="fas fa-times"></i> API access</li>
+                    </ul>
+                </div>
+
+                <!-- Pro (featured) -->
+                <div class="pricing-card pricing-card-featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="plan-header">
+                        <div class="plan-icon plan-icon-pro">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h2 class="plan-name">Pro</h2>
+                        <p class="plan-desc">For sales teams actively building pipelines.</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="price-amount" data-monthly="79" data-annual="63">$79</span>
+                        <span class="price-period">/ month</span>
+                    </div>
+                    <a href="login.html?tab=signup" class="btn btn-primary plan-cta">Start Free Trial</a>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> 1,000 credits / month</li>
+                        <li><i class="fas fa-check"></i> Email + Phone numbers</li>
+                        <li><i class="fas fa-check"></i> 3 user seats</li>
+                        <li><i class="fas fa-check"></i> Chrome Extension</li>
+                        <li><i class="fas fa-check"></i> Advanced search filters</li>
+                        <li><i class="fas fa-check"></i> CSV / bulk export</li>
+                        <li><i class="fas fa-check"></i> API access (10k calls/mo)</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Dedicated support</li>
+                    </ul>
+                </div>
+
+                <!-- Enterprise -->
+                <div class="pricing-card">
+                    <div class="plan-header">
+                        <div class="plan-icon plan-icon-enterprise">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h2 class="plan-name">Enterprise</h2>
+                        <p class="plan-desc">Custom data solutions for large organisations.</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="price-amount">Custom</span>
+                    </div>
+                    <a href="login.html?tab=demo" class="btn btn-outline plan-cta">Talk to Sales</a>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Unlimited credits</li>
+                        <li><i class="fas fa-check"></i> Email + Phone numbers</li>
+                        <li><i class="fas fa-check"></i> Unlimited user seats</li>
+                        <li><i class="fas fa-check"></i> Chrome Extension</li>
+                        <li><i class="fas fa-check"></i> All search filters</li>
+                        <li><i class="fas fa-check"></i> CSV / bulk export</li>
+                        <li><i class="fas fa-check"></i> Unlimited API access</li>
+                        <li><i class="fas fa-check"></i> Dedicated support + SLA</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature comparison table -->
+    <section class="comparison-section">
+        <div class="container">
+            <h2 class="section-title-dark">Full Feature Comparison</h2>
+            <div class="comparison-table-wrap">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Free</th>
+                            <th class="col-featured">Pro</th>
+                            <th>Enterprise</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Monthly credits</td><td>50</td><td class="col-featured">1,000</td><td>Unlimited</td></tr>
+                        <tr><td>Email addresses</td><td><i class="fas fa-check text-green"></i></td><td class="col-featured"><i class="fas fa-check text-green"></i></td><td><i class="fas fa-check text-green"></i></td></tr>
+                        <tr><td>Phone numbers</td><td><i class="fas fa-times text-gray"></i></td><td class="col-featured"><i class="fas fa-check text-green"></i></td><td><i class="fas fa-check text-green"></i></td></tr>
+                        <tr><td>User seats</td><td>1</td><td class="col-featured">3</td><td>Unlimited</td></tr>
+                        <tr><td>Chrome Extension</td><td><i class="fas fa-check text-green"></i></td><td class="col-featured"><i class="fas fa-check text-green"></i></td><td><i class="fas fa-check text-green"></i></td></tr>
+                        <tr><td>CSV / Bulk export</td><td><i class="fas fa-times text-gray"></i></td><td class="col-featured"><i class="fas fa-check text-green"></i></td><td><i class="fas fa-check text-green"></i></td></tr>
+                        <tr><td>API access</td><td><i class="fas fa-times text-gray"></i></td><td class="col-featured">10k calls/mo</td><td>Unlimited</td></tr>
+                        <tr><td>Dedicated support</td><td><i class="fas fa-times text-gray"></i></td><td class="col-featured"><i class="fas fa-times text-gray"></i></td><td><i class="fas fa-check text-green"></i></td></tr>
+                        <tr><td>SLA guarantee</td><td><i class="fas fa-times text-gray"></i></td><td class="col-featured"><i class="fas fa-times text-gray"></i></td><td><i class="fas fa-check text-green"></i></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title-dark">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4 class="faq-q">What is a credit?</h4>
+                    <p class="faq-a">One credit lets you unlock a single contact's details — either their email, phone, or both depending on your plan.</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-q">Do unused credits roll over?</h4>
+                    <p class="faq-a">Credits reset every month and do not roll over. Enterprise plans can negotiate custom terms.</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-q">Can I cancel anytime?</h4>
+                    <p class="faq-a">Yes. You can cancel your subscription at any time with no cancellation fees. You keep access until the end of your billing period.</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-q">Is there a free trial for Pro?</h4>
+                    <p class="faq-a">Yes — the Pro plan comes with a 7-day free trial and 100 credits. No credit card required to start.</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-q">How accurate is the data?</h4>
+                    <p class="faq-a">We achieve 97%+ email accuracy through real-time validation. Phone numbers are verified against carrier databases.</p>
+                </div>
+                <div class="faq-item">
+                    <h4 class="faq-q">Do you offer volume discounts?</h4>
+                    <p class="faq-a">Enterprise plans are fully custom-priced. Contact our sales team for a quote tailored to your team's size and needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner (same as home) -->
+    <section class="cta-banner">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to 10x Your Sales Pipeline?</h2>
+                <p class="cta-subtitle">Start your free trial today. No credit card required.</p>
+                <p class="cta-details">7-day free trial • 100 credits • Complete API integration • Cancel anytime</p>
+                <div class="cta-buttons-group">
+                    <a href="login.html?tab=signup" class="btn btn-white btn-large">Start Free Trial <i class="fas fa-arrow-right"></i></a>
+                    <button class="btn btn-outline-white btn-large watch-demo-btn">Schedule Demo</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (same as home) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">GettLeads</h2>
+                    <p class="footer-description">The world's most reliable B2B contact database. Find anyone's business email address and phone number to accelerate your sales pipeline.</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Bengaluru, India</p>
+                        <p><i class="fas fa-phone"></i> +91 7667061506</p>
+                        <p><i class="fas fa-envelope"></i> hello@gettleads.com</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Products</h4>
+                        <ul class="footer-list">
+                            <li class="footer-subheading">Datasets</li>
+                            <li class="footer-child"><a href="#">LinkedIn People Database</a></li>
+                            <li class="footer-child"><a href="#">Company Database</a></li>
+                            <li class="footer-child"><a href="#">Contact Database</a></li>
+                            <li class="footer-subheading footer-subheading-gap">APIs</li>
+                            <li class="footer-child"><a href="#">LinkedIn People API</a></li>
+                            <li class="footer-child"><a href="#">LinkedIn Company API</a></li>
+                            <li class="footer-child"><a href="#">Email Finder API</a></li>
+                            <li class="footer-child"><a href="#">Phone Finder API</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Solutions</h4>
+                        <ul class="footer-list">
+                            <li class="footer-subheading">By Role</li>
+                            <li class="footer-child"><a href="#">Sales Teams</a></li>
+                            <li class="footer-child"><a href="#">Recruiters</a></li>
+                            <li class="footer-child"><a href="#">Marketers</a></li>
+                            <li class="footer-subheading footer-subheading-gap">By Use Case</li>
+                            <li class="footer-child"><a href="#">Customer Onboarding</a></li>
+                            <li class="footer-child"><a href="#">Data Enrichment</a></li>
+                            <li class="footer-child"><a href="#">List Building</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Resources</h4>
+                        <ul class="footer-list">
+                            <li class="footer-subheading">Developers</li>
+                            <li class="footer-child"><a href="#">Documentation</a></li>
+                            <li class="footer-child"><a href="#">API Reference</a></li>
+                            <li class="footer-subheading footer-subheading-gap">Support</li>
+                            <li class="footer-child"><a href="#">Blog</a></li>
+                            <li class="footer-child"><a href="#">Help Center</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Company</h4>
+                        <ul class="footer-list">
+                            <li class="footer-subheading">About</li>
+                            <li class="footer-child"><a href="#">About Us</a></li>
+                            <li class="footer-child"><a href="#">Careers</a></li>
+                            <li class="footer-subheading footer-subheading-gap">Connect</li>
+                            <li class="footer-child"><a href="#">Contact</a></li>
+                            <li class="footer-child"><a href="#">Partners</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 GettLeads. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Do Not Sell My Info</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="footer-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="footer-social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" class="footer-social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="footer-social-link" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Modal -->
+    <div class="modal" id="demo-modal">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-icon"><i class="fas fa-play-circle"></i></div>
+            <h2 class="modal-title">Watch the Demo</h2>
+            <p class="modal-subtitle">See how GettLeads helps you find verified contacts in seconds.</p>
+            <div class="video-placeholder">
+                <i class="fas fa-play"></i>
+                <span>Demo video coming soon</span>
+            </div>
+            <a href="login.html?tab=signup" class="btn btn-primary btn-large modal-cta">
+                Start Free Trial Instead <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
